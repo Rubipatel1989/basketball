@@ -1,37 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basketball Website - Fixtures</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="fixtures-page">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="teams.html">Basketball Teams</a></li>
-                <li><a href="fixtures.html">Fixtures</a></li>
-                <li><a href="results.html">Results</a></li>
-                <li><a href="points-table.html">Points Table</a></li>
-                <li><a href="playoffs.html">Playoffs</a></li>
-            </ul>
-        </nav>
-    </header>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">Basketball League</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="teams.html">Teams</a></li>
+                        <li class="nav-item"><a class="nav-link" href="fixtures.html">Fixtures</a></li>
+                        <li class="nav-item"><a class="nav-link" href="results.html">Results</a></li>
+                        <li class="nav-item"><a class="nav-link" href="points-table.html">Points Table</a></li>
+                        <li class="nav-item"><a class="nav-link" href="playoffs.html">Playoffs</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-    <main>
-        <h1>Upcoming Fixtures</h1>
-        <div class="fixture-list">
-            <div class="fixture">
-                <p>Match 1: Team A vs Team B</p>
+        <!-- Main Content: Fixtures -->
+        <main class="mt-4">
+            <h1 class="text-center">Upcoming Fixtures</h1>
+            <div class="fixture-list mt-4">
+                <!-- Fixture 1 -->
+                <div class="fixture d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded">
+                    <div>
+                        <h5>April 2, 2025</h5>
+                        <h6>7:30 PM IST</h6>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <img src="images/team1-logo.png" alt="Team A" height="50" width="50">
+                            <p>Team A</p>
+                        </div>
+                        <div>
+                            <h3>VS</h3>
+                        </div>
+                        <div>
+                            <img src="images/team2-logo.png" alt="Team B" height="50" width="50">
+                            <p>Team B</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Match Centre</button>
+                </div>
+
+                <!-- Fixture 2 -->
+                <div class="fixture d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded">
+                    <div>
+                        <h5>April 3, 2025</h5>
+                        <h6>7:30 PM IST</h6>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <img src="images/team3-logo.png" alt="Team C" height="50" width="50">
+                            <p>Team C</p>
+                        </div>
+                        <div>
+                            <h3>VS</h3>
+                        </div>
+                        <div>
+                            <img src="images/team4-logo.png" alt="Team D" height="50" width="50">
+                            <p>Team D</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Match Centre</button>
+                </div>
+
+                <!-- More Fixtures here -->
             </div>
-            <!-- Add more fixtures here -->
-        </div>
-    </main>
+        </main>
 
-    <footer>
-        <p>Football Website &copy; 2025</p>
-    </footer>
+        <!-- Footer Section -->
+        <footer class="bg-dark text-white text-center py-4 mt-5">
+            <div class="footer-links mb-3">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-white">About</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Privacy</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Terms</a></li>
+                </ul>
+            </div>
+            <div class="social-icons mb-3">
+                <a href="#" class="text-white"><img src="images/facebook-icon.png" alt="Facebook" height="40" width="40"></a>
+                <a href="#" class="text-white"><img src="images/twitter-icon.png" alt="Twitter" height="40" width="40"></a>
+                <a href="#" class="text-white"><img src="images/instagram-icon.png" alt="Instagram" height="40" width="40"></a>
+            </div>
+            <div>
+                <p>Basketball - Live Coverage</p>
+                <p>&copy; 2025 Basketball League</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JavaScript (for responsive navbar) -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

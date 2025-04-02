@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basketball Website - Results</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="results-page">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="teams.html">Basketball Teams</a></li>
-                <li><a href="fixtures.html">Fixtures</a></li>
-                <li><a href="results.html">Results</a></li>
-                <li><a href="points-table.html">Points Table</a></li>
-                <li><a href="playoffs.html">Playoffs</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="teams.html">Basketball Teams</a></li>
+                    <li><a href="fixtures.html">Fixtures</a></li>
+                    <li><a href="results.html">Results</a></li>
+                    <li><a href="points-table.html">Points Table</a></li>
+                    <li><a href="playoffs.html">Playoffs</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <h1>Match Results</h1>
-        <div class="results-list">
-            <div class="result">
-                <p>Match 1: Team A vs Team B - Result: Team A won</p>
+        <main>
+            <h1>Match Results</h1>
+            <div class="results-list">
+                <div class="result">
+                    <p>Match 1: Team A vs Team B - Result: Team A won</p>
+                </div>
+                <!-- Add more results here -->
             </div>
-            <!-- Add more results here -->
-        </div>
-    </main>
+        </main>
 
-    <footer>
-        <p>Football Website &copy; 2025</p>
-    </footer>
+        <footer>
+            <div class="footer">
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="images/facebook-icon.png" alt="Facebook" height="50" width="50"></a>
+                    <a href="#"><img src="images/twitter-icon.png" alt="Twitter" height="50" width="50"></a>
+                    <a href="#"><img src="images/instagram-icon.png" alt="Instagram" height="50" width="50"></a>
+                </div>
+                <div class="row text-center">
+                    <p>Basketball - Live Coverage</p>
+                    <p>&copy; 2025 Basketball League</p>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 </html>
