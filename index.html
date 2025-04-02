@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Football Website - Teams</title>
+    <title>Football Website - Live Matches</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="home-page">
@@ -21,15 +21,77 @@
     </header>
 
     <main>
-        <h1>Football Teams</h1>
-        <div class="team-list">
-            <a href="team-detail.html?team=delhi-capitals" class="team-card">Delhi Capitals</a>
-            <!-- Add other teams as needed -->
+        <div class="main-slider">
+            <div class="slider-item">
+                <img src="images/football-match.jpg" alt="Football Match" height="200">
+                <div class="slider-caption">
+                    <h2>Match of the Day</h2>
+                    <p>Top Player's Brilliant Performance Sets the Stage</p>
+                    <a href="video.html" class="play-button">Play</a>
+                </div>
+            </div>
+            <div class="slider-item">
+                <img src="images/football-highlight-image.jpg" alt="Match Highlights" height="200">
+                <div class="slider-caption">
+                    <h2>Match Highlights</h2>
+                    <p>See How the Action Unfolded</p>
+                    <a href="highlights.html" class="play-button">Play</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="match-stats">
+            <h3>Football Live Match Stats</h3>
+            <div class="match-card">
+                <p class="team">Team A</p>
+                <p class="score">2 - 1</p>
+                <p class="team">Team B</p>
+                <div class="match-details">
+                    <span class="time">40' </span>
+                    <span class="status">Live</span>
+                </div>
+            </div>
+            <div class="match-card">
+                <p class="team">Team B</p>
+                <p class="score">2 - 1</p>
+                <p class="team">Team B</p>
+                <div class="match-details">
+                    <span class="time">40' </span>
+                    <span class="status">Live</span>
+                </div>
+            </div>
+            <div class="match-card">
+                <p class="team">Team C</p>
+                <p class="score">2 - 1</p>
+                <p class="team">Team B</p>
+                <div class="match-details">
+                    <span class="time">40' </span>
+                    <span class="status">Live</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-info">
+            <p>Football Website - Live Coverage</p>
+            <p>&copy; 2025 Football League</p>
         </div>
     </main>
 
     <footer>
-        <p>Football Website &copy; 2025</p>
+        <div class="footer">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook-icon.png" alt="Facebook" height="50" width="50"></a>
+                <a href="#"><img src="images/twitter-icon.png" alt="Twitter" height="50" width="50"></a>
+                <a href="#"><img src="images/instagram-icon.png" alt="Instagram" height="50" width="50"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
