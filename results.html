@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basketball Website - Teams</title>
+    <title>Basketball Website - Results</title>
     <link href="bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="container">
+        <!-- Header Section -->
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="index.html">Basketball League</a>
@@ -29,39 +31,165 @@
             </nav>
         </header>
 
-        <main>
+        <!-- Main Content: Results -->
+        <main class="mt-4">
             <h1 class="text-center">Match Results</h1>
-            <div class="results-list">
-                <div class="result">
-                    <p>Match 1: Team A vs Team B - Result: Team A won</p>
+            <div class="results-list mt-4">
+                <!-- Result 1 -->
+                <div class="result d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded">
+                    <div>
+                        <h5>April 1, 2025</h5>
+                        <h6>7:30 PM IST</h6>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <img src="images/CSKoutline.avif" alt="Team A" height="50" width="50">
+                            <p>chennai super kings</p>
+                        </div>
+                        <div>
+                            <h3>VS</h3>
+                        </div>
+                        <div>
+                            <img src="images/GToutline.png" alt="Team B" height="50" width="50">
+                            <p>Gujarat Titans</p>
+                        </div>
+                    </div>
+                    <p class="text-success font-weight-bold">Team A won by 8 wickets</p>
+                </div>
+
+                <!-- Result 2 -->
+                <div class="result d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded">
+                    <div>
+                        <h5>March 31, 2025</h5>
+                        <h6>7:30 PM IST</h6>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <img src="images/KKRoutline.avif" alt="Team A" height="50" width="50">
+                            <p>Kolkata Knight Riders</p>
+                        </div>
+                        <div>
+                            <h3>VS</h3>
+                        </div>
+                        <div>
+                            <img src="images/DCoutline.png" alt="Team B" height="50" width="50">
+                            <p>Delhi Capitals</p>
+                        </div>
+                    </div>
+                    <p class="text-danger font-weight-bold">Team D won by 7 wickets</p>
+                </div>
+
+                <div class="result d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded">
+                    <div>
+                        <h5>April 10, 2025</h5>
+                        <h6>7:30 PM IST</h6>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <img src="images/LSGoutline.avif" alt="Team C" height="50" width="50">
+                            <p>Lucknow Super Giants</p>
+                        </div>
+                        <div>
+                            <h3>VS</h3>
+                        </div>
+                        <div>
+                            <img src="images/SRHoutline.avif" alt="Team D" height="50" width="50">
+                            <p>Sunrisers Hyderabad</p>
+                        </div>
+                    </div>
+                    <p class="text-danger font-weight-bold">Team D won by 7 wickets</p>
+                </div>
+                <div class="result d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded">
+                    <div>
+                        <h5>April 1, 2025</h5>
+                        <h6>7:30 PM IST</h6>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <img src="images/CSKoutline.avif" alt="Team A" height="50" width="50">
+                            <p>chennai super kings</p>
+                        </div>
+                        <div>
+                            <h3>VS</h3>
+                        </div>
+                        <div>
+                            <img src="images/GToutline.png" alt="Team B" height="50" width="50">
+                            <p>Gujarat Titans</p>
+                        </div>
+                    </div>
+                    <p class="text-success font-weight-bold">Team A won by 8 wickets</p>
+                </div>
+
+                <!-- Result 2 -->
+                <div class="result d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded">
+                    <div>
+                        <h5>March 31, 2025</h5>
+                        <h6>7:30 PM IST</h6>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <img src="images/KKRoutline.avif" alt="Team A" height="50" width="50">
+                            <p>Kolkata Knight Riders</p>
+                        </div>
+                        <div>
+                            <h3>VS</h3>
+                        </div>
+                        <div>
+                            <img src="images/DCoutline.png" alt="Team B" height="50" width="50">
+                            <p>Delhi Capitals</p>
+                        </div>
+                    </div>
+                    <p class="text-danger font-weight-bold">Team D won by 7 wickets</p>
+                </div>
+
+                <div class="result d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded">
+                    <div>
+                        <h5>April 10, 2025</h5>
+                        <h6>7:30 PM IST</h6>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <img src="images/LSGoutline.avif" alt="Team C" height="50" width="50">
+                            <p>Lucknow Super Giants</p>
+                        </div>
+                        <div>
+                            <h3>VS</h3>
+                        </div>
+                        <div>
+                            <img src="images/SRHoutline.avif" alt="Team D" height="50" width="50">
+                            <p>Sunrisers Hyderabad</p>
+                        </div>
+                    </div>
+                    <p class="text-danger font-weight-bold">Team D won by 7 wickets</p>
                 </div>
                 <!-- Add more results here -->
             </div>
         </main>
 
-        <footer>
-            <div class="footer">
-                <div class="footer-links">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Terms</a></li>
-                    </ul>
-                </div>
-                <div class="social-icons">
-                    <a href="#"><img src="images/facebook-icon.png" alt="Facebook" height="50" width="50"></a>
-                    <a href="#"><img src="images/twitter-icon.png" alt="Twitter" height="50" width="50"></a>
-                    <a href="#"><img src="images/instagram-icon.png" alt="Instagram" height="50" width="50"></a>
-                </div>
-                <div class="row text-center">
-                    <p>Basketball - Live Coverage</p>
-                    <p>&copy; 2025 Basketball League</p>
-                </div>
+        <!-- Footer Section -->
+        <footer class="bg-dark text-white text-center py-4 mt-5">
+            <div class="footer-links mb-3">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-white">About</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Privacy</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Terms</a></li>
+                </ul>
+            </div>
+            <div class="social-icons mb-3">
+                <a href="#" class="text-white"><img src="images/facebook-icon.png" alt="Facebook" height="40" width="40"></a>
+                <a href="#" class="text-white"><img src="images/twitter-icon.png" alt="Twitter" height="40" width="40"></a>
+                <a href="#" class="text-white"><img src="images/instagram-icon.png" alt="Instagram" height="40" width="40"></a>
+            </div>
+            <div>
+                <p>Basketball - Live Coverage</p>
+                <p>&copy; 2025 Basketball League</p>
             </div>
         </footer>
     </div>
+
+    <!-- Bootstrap JavaScript (for responsive navbar) -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 
 </html>
